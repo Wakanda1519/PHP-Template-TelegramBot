@@ -13,7 +13,7 @@ The template demonstrates the main functions of the models, you can modify it an
 - `4` Open a browser and navigate to the following URL, replacing YOUR_BOT_TOKEN and YOUR_DOMAIN_NAME with your data
 - ```https://api.telegram.org/botYOUR_BOT_TOKEN/setWebhook?url=https://YOUR_DOMAIN_NAME/index.php```
 - `5` Follow the path Source/Config.php and insert your YOUR_BOT_TOKEN
-- `6` Check if it is available index.php on request https://YOUR_DOMAIN_NAIM/index.php
+- `6` Check if it is available index.php on request https://YOUR_DOMAIN_NAME/index.php
 - `7` If you have done everything correctly, write the /start command in your bot and it will respond to you
 
 ## How do models work?
