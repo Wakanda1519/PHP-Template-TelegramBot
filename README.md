@@ -10,10 +10,10 @@ The template demonstrates the main functions of the models, you can modify it an
 - `1` Open Telegram and find the bot @BotFather.
 - `2` Send the /newbot command and follow the instructions to create a new bot
 - `3` After creating the bot, you will receive an API token that will look something like this: 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
-- `4` Open a browser and navigate to the following URL, replacing YOUR_BOT_TOKEN and YOUR_DOMAIN_NAIM with your data
-- ```https://api.telegram.org/botYOUR_BOT_TOKEN/setWebhook?url=YOUR_DOMAIN_NAIM/index.php```
+- `4` Open a browser and navigate to the following URL, replacing YOUR_BOT_TOKEN and YOUR_DOMAIN_NAME with your data
+- ```https://api.telegram.org/botYOUR_BOT_TOKEN/setWebhook?url=YOUR_DOMAIN_NAME/index.php```
 - `5` Follow the path Source/Config.php and insert your YOUR_BOT_TOKEN
 - `6` Check if it is available index.php on request YOUR_DOMAIN_NAIM/index.php
-- `7` If you have done everything correctly, write the /start command in your bot
+- `7` If you have done everything correctly, write the /start command in your bot and it will respond to you
 
 
