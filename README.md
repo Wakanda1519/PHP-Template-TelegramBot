@@ -17,9 +17,9 @@ The template demonstrates the main functions of the models, you can modify it an
 - `7` If you have done everything correctly, write the /start command in your bot and it will respond to you
 
 ## How do models work?
-- `1` `CRUD`
+- `CRUD`
 - The CRUD (Create, Read, Update, Delete) model for interacting with JSON files is a set of operations that allow you to manage data stored in JSON format.
-- `2` `TelegramApi`
+- `TelegramApi`
 - The TelegramApi model is a set of methods for interacting with the Telegram API, allowing you to send, delete, and edit messages inside a Telegram chat.
 
 
