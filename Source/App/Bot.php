@@ -24,8 +24,6 @@ class Bot
         $msg = $this->data['message']; // Cообщение
         $name = $this->data['first_name']; // Имя пользователя
 
-        $search_user = $this->crud->SearchID($id, 'Database/Users.json');
-
         switch ($msg)
         {
             case '/start':
