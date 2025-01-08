@@ -11,9 +11,15 @@ The template demonstrates the main functions of the models, you can modify it an
 - `2` Send the /newbot command and follow the instructions to create a new bot
 - `3` After creating the bot, you will receive an API token that will look something like this: 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
 - `4` Open a browser and navigate to the following URL, replacing YOUR_BOT_TOKEN and YOUR_DOMAIN_NAME with your data
-- ```https://api.telegram.org/botYOUR_BOT_TOKEN/setWebhook?url=YOUR_DOMAIN_NAME/index.php```
+- ```https://api.telegram.org/botYOUR_BOT_TOKEN/setWebhook?url=https://YOUR_DOMAIN_NAME/index.php```
 - `5` Follow the path Source/Config.php and insert your YOUR_BOT_TOKEN
-- `6` Check if it is available index.php on request YOUR_DOMAIN_NAIM/index.php
+- `6` Check if it is available index.php on request https://YOUR_DOMAIN_NAIM/index.php
 - `7` If you have done everything correctly, write the /start command in your bot and it will respond to you
+
+## How do models work?
+- `1` `CRUD`
+- The CRUD (Create, Read, Update, Delete) model for interacting with JSON files is a set of operations that allow you to manage data stored in JSON format.
+- `2` `TelegramApi`
+- The TelegramApi model is a set of methods for interacting with the Telegram API, allowing you to send, delete, and edit messages inside a Telegram chat.
 
 
