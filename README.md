@@ -22,4 +22,8 @@ The template demonstrates the main functions of the models, you can modify it an
 - `TelegramApi`
 - The TelegramApi model is a set of methods for interacting with the Telegram API, allowing you to send, delete, and edit messages inside a Telegram chat.
 
+## How helpers work?
+- `Message`
+- The Message helper is designed to simplify working with text messages in bots, allowing you to avoid unnecessary code clutter.
+
 
