@@ -2,7 +2,7 @@
 The template demonstrates the main functions of the models, you can modify it and do, for example, technical support for your business, a friend search service, and much more
 
 ## Requirements
-- The PHP version is at least 7.4
+- The PHP version is at least 7.2
 - Hosting with the ability to execute PHP scripts
 - Domain name
 
@@ -19,14 +19,14 @@ The template demonstrates the main functions of the models, you can modify it an
 ## How do models work?
 
 ### CRUD
-The CRUD (Create, Read, Update, Delete) model for interacting with JSON files is a set of operations that allow you to manage data stored in JSON format.
+- The CRUD (Create, Read, Update, Delete) model for interacting with JSON files is a set of operations that allow you to manage data stored in JSON format.
 
 ### TelegramApi
-The TelegramApi model is a set of methods for interacting with the Telegram API, allowing you to send, delete, and edit messages inside a Telegram chat.
+- The TelegramApi model is a set of methods for interacting with the Telegram API, allowing you to send, delete, and edit messages inside a Telegram chat.
 
 ## How helpers work?
 
 ### Message`
-The Message helper is designed to simplify working with text messages in bots, allowing you to avoid unnecessary code clutter.
+- The Message helper is designed to simplify working with text messages in bots, allowing you to avoid unnecessary code clutter.
 
 
