@@ -26,7 +26,40 @@ The template demonstrates the main functions of the models, you can modify it an
 
 ## How helpers work?
 
-### Message`
+### Message
 - The Message helper is designed to simplify working with text messages in bots, allowing you to avoid unnecessary code clutter.
+
+## How to add your own Models and Helpers?
+- `1` Paste the code template into a new file, you need to create it using the path Source/App/Models or Helpers
+
+```php
+namespace App\Models;
+
+class YourClass
+{
+    public static function YourMethod()
+    {
+        return "Hello World!"
+    }
+}
+```
+
+- `2` Connect the class to index.php
+
+```php
+require_once __DIR__ . '/Source/App/Models/YourNameFile.php';
+```
+
+- `3` Connect the class in the bot
+
+```php
+use App\Helpers\Keywords;
+```
+- `4` How do I use the module methods in the bot?
+```php
+YourClass::YourMethod()
+```
+
+
 
 
