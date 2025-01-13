@@ -53,7 +53,7 @@ require_once __DIR__ . '/Source/App/Models/YourNameFile.php';
 - `3` Connect the class in the bot
 
 ```php
-use App\Helpers\Keywords;
+use App\Models\YourClass;
 ```
 - `4` How do I use the module methods in the bot?
 ```php
