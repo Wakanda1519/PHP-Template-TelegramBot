@@ -1,36 +1,45 @@
 # PHP Template TelegramBot
-The template demonstrates the main functions of the models, you can modify it and do, for example, technical support for your business, a friend search service, and much more
 
-## Requirements
-- The PHP version is at least 7.2
-- Hosting with the ability to execute PHP scripts
-- Domain name
+![PHP](https://img.shields.io/badge/PHP-Template-blue?style=flat-square&logo=php)
 
+Добро пожаловатЬ, шаблон демонстрирует основные функции моделей, вы можете изменить его и сделать, например, техническую поддержку для вашего бизнеса, службу поиска друга и многого другого
+
+## Требования
+
+- Версия PHP не менее 7,2
+- Хостинг с возможностью выполнять сценарии PHP
+- Доменное имя
+- 
 ## How do I create a bot?
-- `1` Open Telegram and find the bot @BotFather.
-- `2` Send the /newbot command and follow the instructions to create a new bot
-- `3` After creating the bot, you will receive an API token that will look something like this: 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
-- `4` Open a browser and navigate to the following URL, replacing YOUR_BOT_TOKEN and YOUR_DOMAIN_NAME with your data
-- ```https://api.telegram.org/botYOUR_BOT_TOKEN/setWebhook?url=https://YOUR_DOMAIN_NAME/index.php```
-- `5` Follow the path Source/Config.php and insert your YOUR_BOT_TOKEN
-- `6` Check if it is available index.php on request https://YOUR_DOMAIN_NAME/index.php
-- `7` If you have done everything correctly, write the /start command in your bot and it will respond to you
 
-## How do models work?
+- `1` Открыть телеграмму и найти бота @botfather.
+- `2` Отправить команду /newbot и следуйте инструкциям, чтобы создать новый бот
+- `3` После создания бота вы получите токен API, который будет выглядеть примерно так: 123456: ABC-DEF1234GHIKL-ZYX57W2V1U123EW11
+- `4` Откройте браузер и перейдите к следующему URL, заменив your_bot_token и your_domain_name с вашими данными
+- ```https://api.telegram.org/botYOUR_BOT_TOKEN/setWebhook?url=https://YOUR_DOMAIN_NAME/index.php```
+- `5` Следуйте по источнику Source/Config.php и вставьте свой YOUR_BOT_TOKEN
+- `6` Проверьте, если он доступен index.php по запросу https://YOUR_DOMAIN_NAME/index.php
+- `7` Если вы все сделали правильно, напишите команду /start в своем боте, и она ответит вам
+
+## Как работают модели?
 
 ### CRUD
-- The CRUD (Create, Read, Update, Delete) model for interacting with JSON files is a set of operations that allow you to manage data stored in JSON format.
+
+Модель CRUD (создать, чтение, обновление, удаление) для взаимодействия с файлами JSON - это набор операций, которые позволяют вам управлять данными, хранящиеся в формате JSON
 
 ### TelegramApi
-- The TelegramApi model is a set of methods for interacting with the Telegram API, allowing you to send, delete, and edit messages inside a Telegram chat.
 
-## How helpers work?
+Модель Telegram API представляет собой набор методов взаимодействия с соц. сетью, позволяющим отправлять, удалять и редактировать сообщения в чате Telegram
+
+## Как работают помощники?
 
 ### Message
-- The Message helper is designed to simplify working with text messages in bots, allowing you to avoid unnecessary code clutter.
 
-## How to add your own Models and Helpers?
-- `1` Paste the code template into a new file, you need to create it using the path Source/App/Models or Helpers
+Помощник сообщений предназначен для упрощения работы с текстовыми сообщениями в ботах, что позволяет избежать ненужного беспорядка кода
+
+## Как добавить свои собственные модели и помощников?
+
+`1` Вставьте шаблон кода в новый файл, вам нужно создать его, используя путь Source/App/Models или Helpers
 
 ```php
 namespace App\Models;
@@ -44,18 +53,18 @@ class YourClass
 }
 ```
 
-- `2` Connect the class to index.php
+`2` Подключите класс к index.php
 
 ```php
 require_once __DIR__ . '/Source/App/Models/YourNameFile.php';
 ```
 
-- `3` Connect the class in the bot
+`3` Подключить класс в боте
 
 ```php
 use App\Models\YourClass;
 ```
-- `4` How do I use the module methods in the bot?
+- `4` Как использовать методы модуля в боте?
 ```php
 YourClass::YourMethod()
 ```
