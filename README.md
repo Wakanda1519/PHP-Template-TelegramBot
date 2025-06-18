@@ -14,7 +14,8 @@
 
 1. Открыть телеграмму и найти бота @botfather.
 2. Отправить команду /newbot и следуйте инструкциям, чтобы создать новый бот
-3. После создания бота вы получите токен API, который будет выглядеть примерно так: 123456: ABC-DEF1234GHIKL-ZYX57W2V1U123EW11
+3. После создания бота вы получите токен API, который будет выглядеть примерно так:
+```123456: ABC-DEF1234GHIKL-ZYX57W2V1U123EW11```
 4. Откройте браузер и перейдите к следующему URL, заменив your_bot_token и your_domain_name с вашими данными
 ```https://api.telegram.org/botYOUR_BOT_TOKEN/setWebhook?url=https://YOUR_DOMAIN_NAME/index.php```
 5. Следуйте по источнику Source/Config.php и вставьте свой YOUR_BOT_TOKEN
